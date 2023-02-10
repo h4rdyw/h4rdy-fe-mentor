@@ -15,19 +15,21 @@ href="./images/favicon-32x32.png">
   <!-- Feel free to remove these styles or customise in your own 
 stylesheet 👍 -->
   <style>
+
     * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  html, body {
-    height: 100%;
-    width: 100%;
-    font-family: 'verdana';
-  }  
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: 'verdana';
+    }  
 
     .container {
-      height: 100vh;
+      height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -39,7 +41,7 @@ stylesheet 👍 -->
       display: block;
       margin: auto;      
       width: 250px;
-      height: auto;
+      min-height: fit-content;
       font-size: 12px; 
       font-weight: lighter;   
       font-style: normal;    
@@ -63,7 +65,7 @@ stylesheet 👍 -->
 
     }
     .card-body {
-      padding: 10px;
+      padding: 1.5 em;
       color: #000;
     }
 
